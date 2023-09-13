@@ -1,12 +1,12 @@
 import App_module from './App.module.scss';
 import { Navbar } from './components/navbar/navbar';
-import { HeroSection } from './components/hero-section/hero-section';
+import { Contact } from './components/contact/contact';
 function App() {
     return (
-            <main className={App_module['page-wrapper']}>
-                <Navbar />
-                <HeroSection />
-            </main>
+        <main className={App_module['page-wrapper']}>
+            <Navbar />
+            <Contact />
+        </main>
     );
 }
 
