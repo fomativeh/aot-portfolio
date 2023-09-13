@@ -1,0 +1,57 @@
+.root {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 60px;
+  background-color: #000000;
+}
+
+.logo {
+  margin-right: 20px;
+}
+.logo-group {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+}
+.logo-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: poppins;
+  max-width: 220px;
+}
+.logo-img {
+  width: 35px;
+  height: 35px;
+}
+.menu-toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: start;
+  justify-content: start;
+  cursor: pointer;
+}
+.toggle-span {
+  color: #ffffff;
+  margin-right: 15px;
+  font-family: poppins;
+  font-weight: 300;
+  margin-top: -3px;
+}
+.menu-icon {
+  height: 16px;
+  width: 24px;
+}
